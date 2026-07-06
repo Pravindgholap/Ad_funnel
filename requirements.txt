@@ -1,0 +1,25 @@
+# --- API / Mock Server ---
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# --- Data Engineering Core ---
+duckdb==1.1.3
+pandas==2.2.3
+requests==2.32.3
+
+# --- Retry/resilience (used in Sprint 1) ---
+tenacity==9.0.0
+
+# --- Validation (used in Sprint 3) ---
+pydantic==2.9.2
+
+# --- Orchestration (used in Sprint 4) ---
+apscheduler==3.10.4
+
+# --- Dashboard (used in Sprint 5) ---
+streamlit==1.39.0
+plotly==5.24.1
+
+# --- Testing ---
+pytest==8.3.3
+httpx==0.27.2
