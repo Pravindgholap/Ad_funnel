@@ -72,3 +72,11 @@ pytest tests/ -v
   for a lightweight, file-based weekend build. The SQL patterns
   (idempotent upserts, sum-then-divide aggregation) transfer directly.
 
+## Live Demo
+https://pravindgholap-ad-funnel-dashboardapp-gpjuk7.streamlit.app/
+
+Note: the hosted version is bootstrapped from a committed seed snapshot
+(data/seed/) since Streamlit Cloud doesn't run companion background
+processes (the mock API server, scheduler). The full live pipeline —
+mock API, retries, orchestrated scheduling, validation — runs locally
+via the Setup/Run instructions below.
